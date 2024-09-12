@@ -1,0 +1,113 @@
+State,Year,Demographic,Gender,Enrollment
+New Jersey,2018-19,Hispanic , Female  ,359
+New Jersey,2018-19,Hispanic , Male  ,346
+New Jersey,2018-19,White , Female  ,133
+New Jersey,2018-19,White , Male  ,127
+New Jersey,2018-19,Black or African American , Female  ,122
+New Jersey,2018-19,Black or African American , Male  ,120
+New Jersey,2018-19,Asian or Asian/Pacific Islander , Male  ,92
+New Jersey,2018-19,Asian or Asian/Pacific Islander , Female  ,72
+New Jersey,2018-19,American Indian/Alaska Native , Female  ,4
+New Jersey,2018-19,American Indian/Alaska Native , Male  ,3
+New Jersey,2018-19,Nat. Hawaiian or Other Pacific Isl. , Male  ,3
+New Jersey,2019-20,Hispanic , Male  ,337
+New Jersey,2019-20,Hispanic , Female  ,322
+New Jersey,2019-20,White , Male  ,135
+New Jersey,2019-20,White , Female  ,134
+New Jersey,2019-20,Black or African American , Male  ,131
+New Jersey,2019-20,Black or African American , Female  ,122
+New Jersey,2019-20,Asian or Asian/Pacific Islander , Female  ,85
+New Jersey,2019-20,Asian or Asian/Pacific Islander , Male  ,63
+New Jersey,2019-20,Nat. Hawaiian or Other Pacific Isl. , Male  ,5
+New Jersey,2019-20,American Indian/Alaska Native , Female  ,4
+New Jersey,2019-20,American Indian/Alaska Native , Male  ,3
+New Jersey,2020-21,Hispanic , Male  ,345
+New Jersey,2020-21,Hispanic , Female  ,268
+New Jersey,2020-21,Black or African American , Male  ,117
+New Jersey,2020-21,Black or African American , Female  ,114
+New Jersey,2020-21,White , Female  ,108
+New Jersey,2020-21,White , Male  ,102
+New Jersey,2020-21,Asian or Asian/Pacific Islander , Male  ,63
+New Jersey,2020-21,Asian or Asian/Pacific Islander , Female  ,63
+New Jersey,2020-21,Nat. Hawaiian or Other Pacific Isl. , Male  ,41
+New Jersey,2020-21,American Indian/Alaska Native , Male  ,3
+New Jersey,2020-21,American Indian/Alaska Native , Female  ,3
+New Jersey,2021-22,Hispanic , Male  ,292
+New Jersey,2021-22,Hispanic , Female  ,266
+New Jersey,2021-22,Black or African American , Female  ,118
+New Jersey,2021-22,Black or African American , Male  ,114
+New Jersey,2021-22,White , Female  ,110
+New Jersey,2021-22,White , Male  ,103
+New Jersey,2021-22,Asian or Asian/Pacific Islander , Female  ,59
+New Jersey,2021-22,Asian or Asian/Pacific Islander , Male  ,54
+New Jersey,2021-22,Nat. Hawaiian or Other Pacific Isl. , Male  ,18
+New Jersey,2021-22,American Indian/Alaska Native , Male  ,7
+New Jersey,2021-22,American Indian/Alaska Native , Female  ,6
+New Jersey,2022-23,Hispanic , Female  ,387
+New Jersey,2022-23,Hispanic , Male  ,360
+New Jersey,2022-23,White , Male  ,136
+New Jersey,2022-23,Black or African American , Female  ,120
+New Jersey,2022-23,White , Female  ,120
+New Jersey,2022-23,Black or African American , Male  ,109
+New Jersey,2022-23,Asian or Asian/Pacific Islander , Male  ,103
+New Jersey,2022-23,Asian or Asian/Pacific Islander , Female  ,88
+New Jersey,2022-23,Nat. Hawaiian or Other Pacific Isl. , Male  ,26
+New Jersey,2022-23,Nat. Hawaiian or Other Pacific Isl. , Female  ,19
+New Jersey,2022-23,American Indian/Alaska Native , Male  ,6
+New Jersey,2022-23,American Indian/Alaska Native , Female  ,5
+New York,2018-19,White , Female  ,143
+New York,2018-19,White , Male  ,130
+New York,2018-19,Hispanic , Male  ,104
+New York,2018-19,Hispanic , Female  ,102
+New York,2018-19,Asian or Asian/Pacific Islander , Male  ,61
+New York,2018-19,Asian or Asian/Pacific Islander , Female  ,54
+New York,2018-19,Black or African American , Male  ,53
+New York,2018-19,Black or African American , Female  ,48
+New York,2018-19,American Indian/Alaska Native , Female  ,26
+New York,2018-19,American Indian/Alaska Native , Male  ,20
+New York,2018-19,Nat. Hawaiian or Other Pacific Isl. , Male  ,7
+New York,2019-20,White , Male  ,118
+New York,2019-20,White , Female  ,113
+New York,2019-20,Hispanic , Male  ,99
+New York,2019-20,Hispanic , Female  ,82
+New York,2019-20,Black or African American , Male  ,71
+New York,2019-20,Black or African American , Female  ,60
+New York,2019-20,Asian or Asian/Pacific Islander , Female  ,55
+New York,2019-20,Asian or Asian/Pacific Islander , Male  ,45
+New York,2019-20,American Indian/Alaska Native , Male  ,20
+New York,2019-20,American Indian/Alaska Native , Female  ,18
+New York,2019-20,Nat. Hawaiian or Other Pacific Isl. , Male  ,9
+New York,2020-21,White , Male  ,91
+New York,2020-21,White , Female  ,80
+New York,2020-21,Hispanic , Male  ,76
+New York,2020-21,Hispanic , Female  ,76
+New York,2020-21,Asian or Asian/Pacific Islander , Male  ,54
+New York,2020-21,Asian or Asian/Pacific Islander , Female  ,46
+New York,2020-21,Black or African American , Male  ,46
+New York,2020-21,Black or African American , Female  ,41
+New York,2020-21,American Indian/Alaska Native , Female  ,19
+New York,2020-21,American Indian/Alaska Native , Male  ,11
+New York,2020-21,Nat. Hawaiian or Other Pacific Isl. , Male  ,5
+New York,2021-22,White , Female  ,96
+New York,2021-22,White , Male  ,92
+New York,2021-22,Hispanic , Male  ,86
+New York,2021-22,Hispanic , Female  ,84
+New York,2021-22,Asian or Asian/Pacific Islander , Female  ,48
+New York,2021-22,Asian or Asian/Pacific Islander , Male  ,47
+New York,2021-22,Black or African American , Male  ,42
+New York,2021-22,Black or African American , Female  ,42
+New York,2021-22,American Indian/Alaska Native , Female  ,16
+New York,2021-22,American Indian/Alaska Native , Male  ,15
+New York,2021-22,Nat. Hawaiian or Other Pacific Isl. , Male  ,5
+New York,2022-23,White , Male  ,103
+New York,2022-23,White , Female  ,97
+New York,2022-23,Hispanic , Male  ,88
+New York,2022-23,Hispanic , Female  ,85
+New York,2022-23,Asian or Asian/Pacific Islander , Male  ,58
+New York,2022-23,Black or African American , Female  ,56
+New York,2022-23,Black or African American , Male  ,50
+New York,2022-23,Asian or Asian/Pacific Islander , Female  ,48
+New York,2022-23,American Indian/Alaska Native , Female  ,21
+New York,2022-23,American Indian/Alaska Native , Male  ,15
+New York,2022-23,Nat. Hawaiian or Other Pacific Isl. , Female  ,6
+New York,2022-23,Nat. Hawaiian or Other Pacific Isl. , Male  ,5

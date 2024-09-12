@@ -1,0 +1,53 @@
+import pandas as pd
+
+# Load the dataset with the correct file path
+file_path = r'C:\Users\j2medina\Documents\New Jersey Pre-K Stats.csv'
+data = pd.read_csv(file_path, encoding='latin1')
+
+# Data Cleaning: Standardize state names to title case for consistency
+data['State Name [Public School] Latest available year'] = data['State Name [Public School] Latest available year'].str.lower().str.title()
+
+# Replace non-numeric symbols with NaN
+data.replace(to_replace=['†', '–', '-', ' '], value=pd.NA, inplace=True)
+
+# Convert all columns that contain numeric data to actual numeric types
+for col in data.columns:
+    if 'Prekindergarten Students' in col:
+        data[col] = pd.to_numeric(data[col], errors='coerce')
+
+# After converting, we can fill NaN values with 0 if necessary (optional)
+# data.fillna(0, inplace=True)
+
+# Get a list of all columns that contain demographic data and year information
+demographic_columns = [col for col in data.columns if 'Prekindergarten Students' in col]
+
+# Melt the dataset: Convert the wide format into long format with columns for demographics, year, and enrollment
+melted_data = pd.melt(
+    data,
+    id_vars=['State Name [Public School] Latest available year'],
+    value_vars=demographic_columns,
+    var_name='Demographic_Year',
+    value_name='Enrollment'
+)
+
+# Extract the year from the 'Demographic_Year' column
+melted_data['Year'] = melted_data['Demographic_Year'].str.extract(r'(\d{4}-\d{2})')
+
+# Extract the demographic information by removing the year part
+melted_data['Demographic'] = melted_data['Demographic_Year'].str.replace(r' \[\w+\] \d{4}-\d{2}', '', regex=True)
+melted_data['Demographic'] = melted_data['Demographic'].str.replace('Prekindergarten Students - ', '', regex=False)
+
+# Drop the original 'Demographic_Year' column
+melted_data.drop(columns=['Demographic_Year'], inplace=True)
+
+# Renaming the state column for easier reading
+melted_data.rename(columns={'State Name [Public School] Latest available year': 'State'}, inplace=True)
+
+# Reordering columns for readability
+melted_data = melted_data[['State', 'Year', 'Demographic', 'Enrollment']]
+
+# Save the cleaned and reshaped data to a new CSV file
+output_file_path = r'C:\Users\j2medina\Documents\New_Jersey_PreK_Cleaned_Reshaped.csv'
+melted_data.to_csv(output_file_path, index=False)
+
+print(f"Cleaned and reorganized data has been saved to {output_file_path}")
